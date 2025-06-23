@@ -1,0 +1,50 @@
+---
+title: "Codebook"
+author: "Timothy Dutton"
+toc: true
+date-modified: last-modified
+date-format: "D MMM, YYYY"
+number-sections: true
+format: 
+  html:
+    theme: united
+editor: visual
+---
+
+# Interviewer
+
+## Open Questions
+
+::: {#nte-ex .callout-note title="Open vs Closed"}
+Open questions do not restrict the range of possible responses or the type of information to provide.
+:::
+
+A
+
+:   anchor: (first code); initial transition prompt to start substantive phase (not necessarily open)
+
+INV
+
+:   initial open-ended invitation
+
+OQ
+
+:   open-ended question (depth and breadth only, see @nte-ex)
+
+## Topic Shift
+
+::: {callout-note title="Code application"}
+Code the first prompt in a series of consecutive prompts with the same topic.
+:::
+
+C
+
+: context; requests bg info (not a detail the child remembers from a particular time)
+
+-   Suspect
+
+-   People
+
+-   Location
+
+-   Relation

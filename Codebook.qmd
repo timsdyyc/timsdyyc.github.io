@@ -5,46 +5,213 @@ toc: true
 date-modified: last-modified
 date-format: "D MMM, YYYY"
 number-sections: true
+callout-icon: false
+callout-appearance: simple
 format: 
   html:
     theme: united
 editor: visual
 ---
 
-# Interviewer
+# Information-Seeking Prompts
 
-## Open Questions
+Prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded.
 
-::: {#nte-ex .callout-note title="Open vs Closed"}
-Open questions do not restrict the range of possible responses or the type of information to provide.
-:::
+## Open Questions {#sec-oq}
+
+::: panel-sidebar
 
 A
 
-:   anchor: (first code); initial transition prompt to start substantive phase (not necessarily open)
+:   Anchor: initial prompt to introduce the topic of concern for the interview
+
+    -   "Tell me what (you have come/we are) here to talk about."
+
+    -   Not always open-ended
 
 INV
 
-:   initial open-ended invitation
+:   Open-ended initial invitation
 
-OQ
+BQ
 
-:   open-ended question (depth and breadth only, see @nte-ex)
+:   Open-ended breadth question
 
-## Topic Shift
+DQ
 
-::: {callout-note title="Code application"}
-Code the first prompt in a series of consecutive prompts with the same topic.
+:   Open-ended depth question
 :::
+
+Open-ended questions encourage an elaborate response but do not tell an interviewee what specific information is required. Interviewees have the freedom to choose what information will be reported and to narrate what happened in their own words (see @nte-oq).
+
+1.  **Open-ended initial invitation:** These questions encourage interviewees to report everything about an event or occurrence of the event. They are typically the first prompt to start talking about the event (or an event occurrence).
+    -   *Tell me everything that happened at Dan’s house, from the very beginning to the end.*
+
+    -   *What happens when Jim hurts you?*
+2.  **Open-ended breadth questions**: These encourage interviewees to report another act/activity/detail, without specifying what information is required.
+    -   *Then what happened?*
+
+    -   *What else happened the night Amy got sick?*
+3.  **Open-ended depth questions**: These questions request further elaboration about a pre-disclosed event/experience/detail, without specifying precisely what information is required.
+    -   They can target a current topic (e.g., “Tell me more about X,”)
+
+        -   *What happened when you started to set the food out?*
+
+        -   *Tell me everything you remember about swimming in the lake.*
+
+    -   They can re-introduce a previously mentioned one (e.g., “Earlier you said X. Tell me more about X”).
+4.  **Open-ended descriptive questions:** These invite elaborate detail about an object/person/location (rather than an action). These are useful for getting descriptive/contextual information, but not ideal for finding out what happened
+    -   *Tell me about the car.*
+
+    -   *Tell me more about the woman.*
+
+## Topic Shifts
 
 C
 
-: context; requests bg info (not a detail the child remembers from a particular time)
+:   Context: prompts requesting background/descriptive information that is not specific to an episode of abuse or about the generic abuse script (see @nte-context)
 
--   Suspect
+    -   **Suspect**: facts about the suspect (name, age, occupation, height, skin colour)
 
--   People
+    -   **People**: facts about any other relevant people
 
--   Location
+    -   **Location**: facts about locations (e.g., layout of house, child's address at the time)
 
--   Relation
+    -   **Time**: temporally relevant facts (e.g., what classroom/term the child was in at the time)
+
+    -   **Contact**: how the child and suspect came to know each other, how often child and suspect meet
+
+    ([BUT]{.underline} note that these details can be episodic if the interviewer is attempting to particularize a specific occurrence; e.g., “what year were you in the time it happened in the back garden?”). 
+
+RFI
+
+:   'Request for information': prompts requesting specific remembered details surrounding abusive acts
+
+    -   **Suspect**: physical description (not usually relevant for known suspects like family members, teachers)
+
+    -   **People**: any other relevant people present
+
+    -   **Location**
+
+    -   **Clothing**
+
+    -   **Conversation**
+
+    -   **Object**
+
+    -   **Time**: prompts used to narrow down the time of abuse (time of day/month/year)
+
+    -   **Disclosure**: details about prior disclosures of the abuse
+
+    -   **Gap**: other prompts requesting new details (see @nte-clarification). These include questions about actions (what someone did), reasons, causes, evaluations.
+
+## Event Shifts
+
+Event
+
+:   This code is used to signal the start of the phase of the interview discussing a particular occurrence of abuse or the generic script of the abuse.
+
+    -   Event number (**1,2,3...**): corresponds to the order in which the event is raised during the interview (not related to the labels used, e.g., first time)
+
+    -   **Generic**: prompts from the interviewer seeking to elicit information about generalities/commonalities across occurrences (e.g., what usually happens)
+
+    -   **Ambiguous**: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This usually applies when the interviewer hasn't established repeated abuse.
+
+# Child Responses
+
+D
+
+:   Initial disclosure: the earliest point at which the child disclosed an abusive event, irrespective of whether they elaborated upon what happened ("to talk about the rude stuff", "he touched me down there")
+
+    -   **re1**: Disclosure of abuse including episodic labels/details that are differentiated as different occurrences of abuse.
+
+    -   **re2:** Disclosure that abuse has occurred a certain number of times or “more than once” without specific episodic labels/details.
+
+    -   **cue:** Disclosure of abuse including linguistic cues (see below) suggesting that there is more than one event.
+
+    -   **single:** Disclosure of a single episode of abuse
+
+    -   **ambiguous:** Disclosure of abusive experience that could be a single episode or repeated
+
+Cue
+
+:   Linguistic cues from the child’s response suggesting they are recalling general script information.
+
+    -   **tense:** Actions described in the timeless present tense.
+
+    -   **optional:** Use of optional qualifiers (e.g., *sometimes, or, if*).
+
+    -   **conditional**: use of conditional qualifiers (e.g., whenever)
+
+    -   **you**: use of impersonal "you" pronoun
+
+Story
+
+:   Narrative details provided in response to **open questions** (see @sec-oq).
+
+    -   **1:** What happened in the lead-up to the abuse? (Establishes suspect’s intent/knowledge to commit the act(s)).
+
+    -   **2:** What happened during the abusive act(s)? (Illegal acts of high investigative relevance).
+
+    -   **3:** What happened after the abuse until no other offending occurred? (Includes what made it stop and what happened after).
+
+OT
+
+:   Off-track responses
+
+# Coding Rules
+
+1.  Codes are not mutually exclusive, \>1 code can be applied at each turn
+2.  
+
+# Notes
+
+::: {#nte-context .callout-note title="Context"}
+Context prompts are usually used for requesting semantic information ("known information rather than remembered). Note that it may depend on context; if a child has only been to a house where the abuse took place *one time,* then a question about where the kitchen was in relation to the bedroom is *episodic.* This also applies when talking about a house the child used to live in. But, if the interviewer and child are talking about the child’s current home, this is not a memory, and so it is context.
+
+**A quick rule** (keeping in mind that quick rules are not always perfect): Ask yourself two questions: 1) Is the prompt about act(s) of abuse \[including particularizing detail about when and where\]?  If NO (but still relevant to the abuse), it’s probably contextual.
+:::
+
+::: {#nte-clarification .callout-note title="Clarification-/Confirmation-Seeking Prompts"}
+Clarification- and confirmation-seeking prompts do **not seek new information** but instead clarify or confirm details already shared by the child.
+
+-   When you say your brother, which brother is that?
+
+-   You heard him say that?
+
+In contrast, information-seeking prompts aim to gather new details that expand the narrative.
+
+-   You said that dad drinks. Had dad been drinking that night?
+
+-   How did you know he drank that night?
+
+:::
+
+::: {#nte-me .callout-note title="Minimal Encouragers"}
+Minimal encouragers signal to a speaker that they are being listened to and understood without breaking the interviewee’s train of thought. Minimal encouragers can be verbal (e.g., saying ‘uh huh’, ‘Mhmm’, repeating a few words the interviewee said) or non- verbal (e.g., head nodding).
+
+-   ***Interviewee**: He gave me his number. **Interviewer**: Uh-huh.*
+
+<!-- -->
+
+-   ***Interviewee**: We went in the shed. **Interviewer**: In the shed? **Interviewee**: Yeah, and I sat on the couch and then he got the pictures.*
+
+:::
+
+::: {#nte-oq .callout-note title="Helpful Tips"}
+
+1.  **Requesting precision doesn’t make a question specific.** Asking someone to be precise (e.g., “Tell me exactly what happened”) doesn’t make a question specific. Consideration must be given to whether the question dictates what information is being requested.
+
+<!-- -->
+
+2.  **Requesting someone to be elaborate doesn’t make a question open-ended.** Asking someone to be elaborate (e.g., “Tell me everything you can remember about the colour of his tie”) doesn’t make a question open. Consideration must be given to whether the question dictates what information is being requested.
+
+<!-- -->
+
+3.  **The words ‘Tell’, ‘Explain’, and ‘Describe’ do not make questions open-ended.** When deciding if a question is open-ended or specific, don’t focus on key words, but rather, whether the question is telling the interviewee what precise details the interviewer is looking for. (E.g., “Tell me what you won your gold medal for?”)
+
+<!-- -->
+
+4.  **Focus on the structure of the question, not the response it elicits.** Sometimes interviewers try to soften an open-ended question with the phrases, ‘Can you ...’, ‘Are you able to tell me ...’, and ‘Do you know/remember ...’ to make it sound more polite. Although they may intend to invite an elaborate response (and many interviewees will interpret them that way), they allow for a ‘yes’ or ‘no’ response.
+
+:::

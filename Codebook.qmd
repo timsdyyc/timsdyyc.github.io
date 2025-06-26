@@ -5,8 +5,10 @@ toc: true
 date-modified: last-modified
 date-format: "D MMM, YYYY"
 number-sections: true
-callout-icon: false
-callout-appearance: simple
+number-depth: 2
+callout-appearance: minimal
+crossref:
+  chapters: true
 format: 
   html:
     theme: united
@@ -15,7 +17,7 @@ editor: visual
 
 # Information-Seeking Prompts
 
-Prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded.
+Interviewer prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded.
 
 ## Open Questions {#sec-oq}
 
@@ -67,6 +69,8 @@ Open-ended questions encourage an elaborate response but do not tell an intervie
 
 ## Topic Shifts
 
+Code the first prompt in a series of consecutive prompts with the same topic.
+
 C
 
 :   Context: prompts requesting background/descriptive information that is not specific to an episode of abuse or about the generic abuse script (see @nte-context)
@@ -105,6 +109,23 @@ RFI
 
     -   **Gap**: other prompts requesting new details (see @nte-clarification). These include questions about actions (what someone did), reasons, causes, evaluations.
 
+ACT
+
+:   Details that are central to, and delineate the structure of, the abusive act.
+
+    -   **Action**: seeking details explaining the overall actions that happened during the abuse (e.g., "What did he do?")
+    -   **Body**: movement and positioning of victim/suspect body parts
+    -   **Clothing**: placement and removal (establishing whether skin-to-skin contact occurred)
+    -   **Subjective**: victim’s thoughts and emotions
+    -   **Sensations**: victim’s physical sensations (pain)
+    -   **Perspective**: what the victim could see or hear
+    -   **Face**: suspect’s facial expression
+    -   **Object**: movement and position of objects used by suspect
+    -   **Injury**: injuries resulting from the abusive act
+    -   **Words**: gist of conversations during abuse
+    -   **Tone**: tone of suspect’s words
+    -   **Duration**: duration of abusive act
+
 ## Event Shifts
 
 Event
@@ -117,52 +138,195 @@ Event
 
     -   **Ambiguous**: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This usually applies when the interviewer hasn't established repeated abuse.
 
+## Understanding Repeated Abuse
+
+### Prompt
+
+Interviewer prompts to determine whether \>1 event occurred:
+
+1.  Asking whether a previously mentioned abusive act occurred on one or more occasions.
+
+2.  Establishing whether certain abusive acts occurred on the same or different occasions.
+
+3.  Asking how many times the abuse occurred.
+
+4.  Asking whether an occurrence of abuse ever occurred before the described occasion.
+
+5.  Asking whether an occurrence of abuse ever occurred since the described occasion.
+
+6.  Asking whether the described occasion was the only time it occurred.
+
+7.  Clarifying the child’s previous response suggesting repeated abuse.
+
+### Time
+
+Interviewer prompts to focus on eliciting episodic detail about a particular occurrence:
+
+1.  Using the term “first time.”
+
+2.  Using the term “last time.”
+
+3.  Using a label previously provided by the child.
+
+4.  Using the terms “another time,” “other time,” “different time.”
+
+5.  Using the term “remember best.”
+
+6.  Using the term “one time,” “a time,” “any time.”
+
+7.  Using the term “that time” in reference to the label raised by the child.
+
+8.  Using the term “next time.”
+
+9.  Using terms that suggest episodic details “did it ever happen on a birthday”
+
+### Difference
+
+Interviewer prompts about differences among/between events:
+
+1.  Any differences across events?
+
+2.  Specific detail same or different across events?
+
+3.  During which event did a specific detail occur?
+
+### Similarity
+
+Interviewer prompts about similarities among/between events:
+
+1.  Were the events similar?
+
+2.  Same location?
+
+### Timing
+
+Interviewer prompts requesting information about when each event occurred and the temporal relationships among events (e.g., order, gap between events).
+
 # Child Responses
 
-D
++---------------+-----------------+---------------+---------------+---------------+
+| [-@sec-d]     | [-@sec-cue]     | [-@sec-story] | [-@sec-ot]    | [-@sec-react] |
+|               |                 |               |               |               |
+| d             | cue             | story         | ot            | react         |
++---------------+-----------------+---------------+---------------+---------------+
+| -   re1       | -   tense       | -   1         | -   silence   | -   accept    |
+|               |                 |               |               |               |
+| -   re2       | -   optional    | -   2         | -   refusal   | -   reject    |
+|               |                 |               |               |               |
+| -   cue       | -   conditional | -   3         | -   idk       |               |
+|               |                 |               |               |               |
+| -   single    | -   you         |               | -   sidetrack |               |
+|               |                 |               |               |               |
+| -   ambiguous |                 |               | -   question  |               |
+|               |                 |               |               |               |
+|               |                 |               | -   repeat    |               |
+|               |                 |               |               |               |
+|               |                 |               | -   multiple  |               |
+|               |                 |               |               |               |
+|               |                 |               | -   cue       |               |
++---------------+-----------------+---------------+---------------+---------------+
 
-:   Initial disclosure: the earliest point at which the child disclosed an abusive event, irrespective of whether they elaborated upon what happened ("to talk about the rude stuff", "he touched me down there")
+## D {#sec-d}
 
-    -   **re1**: Disclosure of abuse including episodic labels/details that are differentiated as different occurrences of abuse.
+Initial disclosure: the earliest point at which the child disclosed an abusive event, irrespective of whether they elaborated upon what happened ("to talk about the rude stuff", "he touched me down there")
 
-    -   **re2:** Disclosure that abuse has occurred a certain number of times or “more than once” without specific episodic labels/details.
+-   **re1**: Disclosure of abuse including episodic labels/details that are differentiated as different occurrences of abuse.
 
-    -   **cue:** Disclosure of abuse including linguistic cues (see below) suggesting that there is more than one event.
+-   **re2:** Disclosure that abuse has occurred a certain number of times or “more than once” without specific episodic labels/details.
 
-    -   **single:** Disclosure of a single episode of abuse
+-   **cue:** Disclosure of abuse including linguistic cues (see below) suggesting that there is more than one event.
 
-    -   **ambiguous:** Disclosure of abusive experience that could be a single episode or repeated
+-   **single:** Disclosure of a single episode of abuse
 
-Cue
+-   **ambiguous:** Disclosure of abusive experience that could be a single episode or repeated
 
-:   Linguistic cues from the child’s response suggesting they are recalling general script information.
+## Cue {#sec-cue}
 
-    -   **tense:** Actions described in the timeless present tense.
+Linguistic cues from the child’s response suggesting they are recalling general script information. *This code is used prior to the interviewer establishing repeated abuse.*
 
-    -   **optional:** Use of optional qualifiers (e.g., *sometimes, or, if*).
+-   **tense:** Actions described in the timeless present tense.
 
-    -   **conditional**: use of conditional qualifiers (e.g., whenever)
+-   **optional:** Use of optional qualifiers (e.g., *sometimes, or, if*).
 
-    -   **you**: use of impersonal "you" pronoun
+-   **conditional**: use of conditional qualifiers (e.g., whenever)
 
-Story
+-   **you**: use of impersonal "you" pronoun
 
-:   Narrative details provided in response to **open questions** (see @sec-oq).
+## Story {#sec-story}
 
-    -   **1:** What happened in the lead-up to the abuse? (Establishes suspect’s intent/knowledge to commit the act(s)).
+Narrative details provided in response to **open questions** (see @sec-oq). What counts as a detail?
 
-    -   **2:** What happened during the abusive act(s)? (Illegal acts of high investigative relevance).
+-   **1:** What happened in the lead-up to the abuse? (Establishes suspect’s intent/knowledge to commit the act(s)).
 
-    -   **3:** What happened after the abuse until no other offending occurred? (Includes what made it stop and what happened after).
+-   **2:** What happened during the abusive act(s)? (Illegal acts of high investigative relevance).
 
-OT
+-   **3:** What happened after the abuse until no other offending occurred? (Includes what made it stop and what happened after).
 
-:   Off-track responses
+## OT {#sec-ot}
+
+Off-track responses are responses that do not provide the information requested by the interviewer's prompt or do not address the issue raised by the interviewer. These are usually unproductive responses that do not confirm, deny, or provide new forensically relevant information (except for *multiple* & *cue*).
+
+-   **Silence**: The child does not provide a verbal or gestural response to the question.
+
+-   **Refusal**: The child explicitly declines to answer the interviewer’s question, such as by stating, 'I don’t want to talk about that' or 'I won’t answer that.'"
+
+-   **IDK**: Responses that express lack of memory, knowledge, or understanding, such as 'I don’t know,' 'I don’t remember,' 'I’m not sure,' or 'I don’t get what you mean.' This also includes 'no' responses to yes/no questions that probe for memory or knowledge (e.g., 'Do you remember what he was wearing?')."
+
+-   **Sidetrack**: A response that is overtly off-topic and non-substantive, such as shifting to an unrelated topic, discussing irrelevant events, or providing irrelevant personal anecdotes.
+
+-   **Question**: An uninvited question posed by the child in response to the interviewer’s prompt. This includes questions that divert attention from the topic at hand, such as 'Why do you need to know that?' or 'Can I go now?' Clarification-seeking questions, rhetorical questions, or questions recounted in dialogue (e.g., 'Then he said, "What are you doing here?"') are excluded because they engage with the topic or provide relevant context.
+
+-   **Repeat**: A response that repeats information already discussed in the interview without elaborating or adding new details.
+
+-   **Multiple**: A response that contains details from other episodes of abuse besides the particular episode that the interviewer is asking about.
+
+-   **Cue**: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse.
+
+### React {#sec-react}
+
+[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded dichotomously as follows:**]{.underline}
+
+**Accept**: The interviewer acknowledges the off-track response and adapts their approach. They can achieve this by:
+
+-   Changing the focus in their subsequent prompt (e.g., shifting topics)
+
+-   Adjusting the format of the question to make it easier for the child to answer (e.g., Interviewer: “*Has it happened many times?*” Child: “I don't know.” Interviewer: “*Has it happened one time or more than one time?*”)
+
+-   Validating the child’s difficulty (either explicitly or implicitly) without dismissing the off-track response.
+
+**Reject**: The interviewer disregards the off-track response and requests the same information in their subsequent prompt in a way that:
+
+-   Increases pressure on the child to respond (e.g., Interviewer: “Has it happened many times?” Child: “I don't know.” Interviewer: “How many times has it happened?”)
+
+-   Signals dissatisfaction with the child’s off-track response.
+
+-   Does not acknowledge or accommodate the child’s difficulty.
+
+# Other Codes
+
+**Break**
+
+-   Suspension in transcript (break in the recording)
+
+**Indistinct**
+
+Response/prompt is inaudible/indistinct (as noted in the transcription) and cannot be inferred based on context
+
+-   Includes issues like fault in recording or inaudible segments.
+
+**Interruption**
+
+-   A situation that causes a deviation from the substantive phase of the interview while the recording continues.
+
+-   Includes situations where the interviewer proposes a break, then continues with the interview anyway.
 
 # Coding Rules
 
 1.  Codes are not mutually exclusive, \>1 code can be applied at each turn
-2.  
+2.  Child responses to interviewer facilitators (non-suggestive words, such as 'ok' or 'yes') and minimal encouragers (see @nte-me) that encourage them to continue an ongoing response to the previous prompt are attributed to the preceding information-seeking prompt.
+3.  Code the final prompt from the interviewer is more than one question is asked in a turn.
+4.  If it takes the interviewer multiple turns to finish asking their question, code the final turn. This can happen when the interviewer is contextualising their prompt by summarising or clarifying previously discussed information.
+5.  Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.
 
 # Notes
 
@@ -184,7 +348,6 @@ In contrast, information-seeking prompts aim to gather new details that expand t
 -   You said that dad drinks. Had dad been drinking that night?
 
 -   How did you know he drank that night?
-
 :::
 
 ::: {#nte-me .callout-note title="Minimal Encouragers"}
@@ -195,11 +358,9 @@ Minimal encouragers signal to a speaker that they are being listened to and unde
 <!-- -->
 
 -   ***Interviewee**: We went in the shed. **Interviewer**: In the shed? **Interviewee**: Yeah, and I sat on the couch and then he got the pictures.*
-
 :::
 
 ::: {#nte-oq .callout-note title="Helpful Tips"}
-
 1.  **Requesting precision doesn’t make a question specific.** Asking someone to be precise (e.g., “Tell me exactly what happened”) doesn’t make a question specific. Consideration must be given to whether the question dictates what information is being requested.
 
 <!-- -->
@@ -213,5 +374,4 @@ Minimal encouragers signal to a speaker that they are being listened to and unde
 <!-- -->
 
 4.  **Focus on the structure of the question, not the response it elicits.** Sometimes interviewers try to soften an open-ended question with the phrases, ‘Can you ...’, ‘Are you able to tell me ...’, and ‘Do you know/remember ...’ to make it sound more polite. Although they may intend to invite an elaborate response (and many interviewees will interpret them that way), they allow for a ‘yes’ or ‘no’ response.
-
 :::

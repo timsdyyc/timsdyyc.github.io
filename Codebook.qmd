@@ -19,7 +19,7 @@ editor: visual
 
 Interviewer prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded.
 
-## Open Questions (Col 1) {#sec-oq}
+## Open Questions {#sec-oq}
 
 ::: panel-sidebar
 
@@ -67,7 +67,7 @@ Open-ended questions encourage an elaborate response but do not tell an intervie
 
     -   *Tell me more about the woman.*
 
-## Topic Shifts (Col 1)
+## Topic Shifts
 
 Code the first prompt in a series of consecutive prompts with the same topic.
 
@@ -130,7 +130,7 @@ ACT
     -   **Tone**: tone of suspect’s words
     -   **Duration**: duration of abusive act
 
-## Event Shifts (Col 2)
+## Event Shifts
 
 E
 
@@ -144,7 +144,7 @@ E
 
     This code applies to the first information-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details about that particular occurrence/generic script.
 
-## Repeated Abuse Prompts (Col 2)
+## Repeated Abuse Prompts
 
 ### Prompt
 
@@ -210,7 +210,7 @@ Interviewer prompts about similarities among/between events:
 
 Interviewer prompts requesting information about when each event occurred, frequency of abuse, and the temporal relationships among events (e.g., order, gap between events). This code is only relevant for when repeated abuse has been established in the interview. For example, asking how many times the abuse occurred would be coded as `temporal` and not `prompt>3` if the child has already disclosed multiple occurrences of abuse in the interview.
 
-# Child Responses (Col 3)
+# Child Responses
 
 +---------------+-----------------+---------------+---------------+---------------+
 | [-@sec-d]     | [-@sec-cue]     | [-@sec-story] | [-@sec-ot]    | [-@sec-react] |
@@ -221,7 +221,7 @@ Interviewer prompts requesting information about when each event occurred, frequ
 |               |                 |               |               |               |
 | -   re2       | -   optional    | -   2         | -   filler    | -   reject    |
 |               |                 |               |               |               |
-| -   cue       | -   conditional | -   3         | -   refusal   |               |
+| -   cue       | -   conditional | -   3         | -   refusal   | -   reject-l  |
 |               |                 |               |               |               |
 | -   single    | -   you         |               | -   idk       |               |
 |               |                 |               |               |               |
@@ -252,7 +252,7 @@ Initial disclosure: the earliest point at which the child disclosed an abusive e
 
 ## Cue {#sec-cue}
 
-Linguistic cues from the child’s response suggesting they are recalling general script information. *This code is used prior to the interviewer establishing repeated abuse (i.e., prior to any event\>generic/event\>number shifts).*
+Linguistic cues from the child’s response suggesting they are recalling general script information. *This code is used prior to the interviewer establishing repeated abuse (i.e., prior to any `event>generic`/`event>number` shifts).*
 
 -   **tense:** Actions described in the timeless present tense.
 
@@ -264,7 +264,7 @@ Linguistic cues from the child’s response suggesting they are recalling genera
 
 ## Story {#sec-story}
 
-Narrative details provided in response to **open questions** (see @sec-oq). What counts as a detail?
+Narrative details (see @nte-detail) provided in response to **open questions** (see @sec-oq).
 
 -   **1:** What happened in the lead-up to the abuse? (Establishes suspect’s intent/knowledge to commit the act(s)).
 
@@ -282,7 +282,7 @@ Off-track responses are responses that do not provide the information requested 
 
 -   **Refusal**: The child explicitly declines to answer the interviewer’s question, such as by stating, 'I don’t want to talk about that' or 'I won’t answer that.'"
 
--   **IDK**: Responses that express lack of memory, knowledge, or understanding, such as 'I don’t know,' 'I don’t remember,' 'I’m not sure,' or 'I don’t get what you mean.' This also includes 'no' responses to yes/no questions that probe for memory or knowledge (e.g., 'Do you remember what he was wearing?')."
+-   **IDK**: Responses that express lack of memory, knowledge, or understanding, such as 'I don’t know,' 'I don’t remember,' 'I’m not sure,' or 'I don’t get what you mean.' This also includes 'no' responses to yes/no questions that probe for memory or knowledge (e.g., 'Do you remember what he was wearing?'). This does not include when the child also elaborates on their response, providing a guess about what the answer might be (e.g., When did that happen?” Child: “I don't know, but I think it was before Christmas some time, probably around the fall”).
 
 -   **Sidetrack**: A response that is overtly off-topic and non-substantive, such as shifting to an unrelated topic, discussing irrelevant events, or providing irrelevant personal anecdotes.
 
@@ -294,31 +294,39 @@ Off-track responses are responses that do not provide the information requested 
 
 -   **Cue**: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse.
 
--   **No**: The child says no when the interviewer suggests potential episodes of abuse (e.g., time\>9, see [-@sec-time])
+-   **No**: The child says no when the interviewer suggests potential episodes of abuse (e.g., `time>9`, see [-@sec-time])
 
 ### React {#sec-react}
 
 [**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded dichotomously as follows:**]{.underline}
 
-**Accept**: The interviewer acknowledges the off-track response and adapts their approach. They can achieve this by:
+**Accept**: The interviewer supportively acknowledges the child’s off-track response, moves on to the next logical question, adapts their approach and/or refocuses the conversation. This can include:
 
--   Changing the focus in their subsequent prompt (e.g., shifting topics)
+1.  The interviewer shifts to a different topic or asks about a different aspect, signaling to the child that their off-track response is acceptable.
 
--   Adjusting the format of the question to make it easier for the child to answer (e.g., Interviewer: “*Has it happened many times?*” Child: “I don't know.” Interviewer: “*Has it happened one time or more than one time?*”).
+2.  The interviewer simplifies or reframes the question, making it easier for the child to respond.
 
--   Validating the child’s difficulty (either explicitly or implicitly) without dismissing the off-track response.
+    -   Interviewer: "Has it happened many times?"
 
--   **L**: Use this when the interviewer's prompt is leading (introduces details the child hasn't provided, see @nte-lq)
+    -   Child: "I don’t know."
 
-**Reject**: The interviewer disregards the off-track response and requests the same information in their subsequent prompt in a way that:
+    -   Interviewer: "Has it happened one time or more than one time?"
 
--   Increases pressure on the child to respond (e.g., Interviewer: “Has it happened many times?” Child: “I don't know.” Interviewer: “How many times has it happened?”)
+**Reject**: The interviewer disregards the child's response and persists in requesting the same information.
 
--   Signals dissatisfaction with the child’s off-track response.
+1.  Increases pressure on the child to respond: The interviewer repeats or reframes the question without adapting it meaningfully, signaling that the child is expected to provide an answer.
 
--   Does not acknowledge or accommodate the child’s difficulty.
+    -   Interviewer: "Has it happened many times?"
 
-# Other Codes (Col 3)
+    -   Child: "I don’t know."
+
+    -   Interviewer: "How many times has it happened?"
+
+2.  Signals dissatisfaction with the child’s off-track response
+
+**Reject-L**: This is an extension of the code above. It is used when the interviewer's reaction also includes a leading question (see @nte-lq) that introduces information the child has not mentioned previously or that implies a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources.
+
+# Other Codes
 
 **Break**
 
@@ -338,17 +346,19 @@ Response/prompt is inaudible/indistinct (as noted in the transcription) and cann
 
 # Coding Rules
 
-1.  Codes are not mutually exclusive, \>1 code can be applied at each turn (use commas to separate them when applicable).
+1.  Codes should be applied under 3 columns. Column 1: Open Questions & Topic Shifts; Column 2: Event Shifts and Repeated Abuse Prompts; Column 3: Child Responses & Other Codes.
 
-2.  If multiple sub-categories of the same code apply to a single turn, you can use this syntax code\>sub-category1\>sub-category2\>... (e.g., cue\>conditional\>optional, story\>1\>2). The order of the sub-categories should match the order in the response/prompt.
+2.  Codes are not mutually exclusive, \>1 code can be applied at each turn (use commas to separate them when applicable).
 
-3.  Child responses to interviewer facilitators (non-suggestive words, such as 'ok' or 'yes') and minimal encouragers (see @nte-me) that encourage them to continue an ongoing response to the previous prompt are attributed to the preceding information-seeking prompt.
+3.  If multiple sub-categories of the same code apply to a single turn, you can use this syntax `code>sub-category1>sub-category2>...` (e.g., `cue>conditional>optional`, `story>1>2`). The order of the sub-categories should match the order in the response/prompt.
 
-4.  Code the final prompt from the interviewer if more than one question is asked in a turn.
+4.  Child responses to interviewer facilitators (non-suggestive words, such as 'ok' or 'yes') and minimal encouragers (see @nte-me) that encourage them to continue an ongoing response to the previous prompt are attributed to the preceding information-seeking prompt.
 
-5.  If it takes the interviewer multiple turns to finish asking their question, code the final turn. This can happen when the interviewer is contextualising their prompt by summarising or clarifying previously discussed information.
+5.  Code the final prompt from the interviewer if more than one question is asked in a turn.
 
-6.  Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.
+6.  If it takes the interviewer multiple turns to finish asking their question, code the final turn. This can happen when the interviewer is contextualising their prompt by summarising or clarifying previously discussed information.
+
+7.  Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.
 
 # Notes
 
@@ -407,5 +417,9 @@ Leading questions presume or raise an aspect or detail that hasn’t already bee
 
 Others presume one or more details and ask the interviewee to talk about them without checking first whether they happened (e.g., “Tell me about Susan’s dog” when it hasn’t been established that Susan had a dog). A simple yes/no or forced-choice questions is leading if it raises a highly specific detail, an issue of contention or narrows response options, irrespective of whether the interviewee is given the option to reject suggested details.
 
-**Quick rule**: If the quesiton contains words, terminology, events or details that haven’t been mentioned by the child, the question can be classified as leading.
+**Quick rule**: If the question contains words, terminology, events or details that haven’t been mentioned by the child, the question can be classified as leading.
+:::
+
+::: {#nte-detail .callout-note title="Narrative Details"}
+Child responses can be broken down into propositions (see prior studies of narrative development; e.g., [Fivush et al., 1995](https://www.sciencedirect.com/science/article/pii/S0022096585710302), [Principe et al., 2013](https://www.sciencedirect.com/science/article/pii/S0885201413000300)). A proposition is a subject + verb construction. Sometimes a proposition can have more than one subject ("Dad and I had dinner") or more than one verb ("I left and went to the bathroom"). A narrative detail will be defined as a proposition that answers the open-ended question and that does not repeat information from the question or the **immediately** previous child response.
 :::

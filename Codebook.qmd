@@ -85,7 +85,7 @@ C
 
     -   **Contact**: how the child and suspect came to know each other, how often child and suspect meet
 
-    ([BUT]{.underline} note that these details can be episodic if the interviewer is attempting to particularize a specific occurrence; e.g., “what year were you in the time it happened in the back garden?”). 
+    ([BUT]{.underline} note that these details can be episodic if the interviewer is attempting to particularise a specific occurrence; e.g., “what year were you in the time it happened in the back garden?”). 
 
 RFI
 
@@ -107,9 +107,9 @@ RFI
 
     -   **Time**: other temporal details
 
-    -   **Disclosure**: details about prior disclosures of the abuse
+    -   **Disclosure**: details about prior disclosures of the abuse (including disclosure time, circumstances, recipients, potential discussions of the event, and reactions to disclosure by both the child and recipients)
 
-    -   **Action**: questions about actions (what someone did)
+    -   **Action**: questions about actions that occurred (what people did)
 
     -   **Gap**: other prompts requesting new details (see @nte-clarification). These include questions about reasons, causes, evaluations.
 
@@ -186,7 +186,7 @@ Interviewer prompts to focus on eliciting episodic detail about a particular occ
 
 9.  Using terms that suggest episodic details “did it ever happen on a birthday”
 
-This code does not apply to subsequent prompts in a series of consecutive prompts about a particular time. In other words, this code only applies when the interviewer is trying to shift the interview into a discussion of a particular occurrence.
+This code does not apply to subsequent prompts in a series of consecutive prompts about a particular time. In other words, this code only applies when the interviewer is trying to transition into a discussion of a particular occurrence.
 
 ### Difference
 
@@ -298,7 +298,7 @@ Off-track responses are responses that do not provide the information requested 
 
 ### React {#sec-react}
 
-[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded dichotomously as follows:**]{.underline}
+[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.**]{.underline} The code should be applied to the interviewer's subsequent prompt and account for all the interviewer's reactions following the off-track response until the prompt.
 
 **Accept**: The interviewer supportively acknowledges the child’s off-track response, moves on to the next logical question, adapts their approach and/or refocuses the conversation. This can include:
 
@@ -327,6 +327,12 @@ Off-track responses are responses that do not provide the information requested 
 **Reject-L**: This is an extension of the code above. It is used when the interviewer's reaction also includes a leading question (see @nte-lq) that introduces information the child has not mentioned previously or that implies a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources.
 
 # Other Codes
+
+These codes should be applied to the first relevant line in the interview.
+
+**Closure**
+
+-   When the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?).
 
 **Break**
 
@@ -365,15 +371,19 @@ Response/prompt is inaudible/indistinct (as noted in the transcription) and cann
 ::: {#nte-context .callout-note title="Context"}
 Context prompts are usually used for requesting semantic information ("known information rather than remembered). Note that it may depend on context; if a child has only been to a house where the abuse took place *one time,* then a question about where the kitchen was in relation to the bedroom is *episodic.* This also applies when talking about a house the child used to live in. But, if the interviewer and child are talking about the child’s current home, this is not a memory, and so it is context.
 
-**A quick rule** (keeping in mind that quick rules are not always perfect): Ask yourself two questions: 1) Is the prompt about act(s) of abuse \[including particularizing detail about when and where\]?  If NO (but still relevant to the abuse), it’s probably contextual.
+**A quick rule** (keeping in mind that quick rules are not always perfect): Ask yourself two questions: 1) Is the prompt about act(s) of abuse \[including particularising detail about when and where\]?  If NO (but still relevant to the abuse), it’s probably contextual.
 :::
 
 ::: {#nte-clarification .callout-note title="Clarification-/Confirmation-Seeking Prompts"}
-Clarification- and confirmation-seeking prompts do **not seek new information** but instead clarify or confirm details already shared by the child.
+*Clarification-seeking* prompts do **not seek new information** but instead clarify details already shared by the child (e.g., clarifying inconsistencies and vagueness in the child's account)
 
 -   When you say your brother, which brother is that?
 
 -   You heard him say that?
+
+Confirmation-seeking yes/no questions are used by many interviewers in the sample to summarise what the child has said and allow the child to check the interviewer's recall for accuracy. These questions do not move the interview forward, as they reflect back on information previously provided by the child without seeking additional forensically relevant information.
+
+-   These questions are often used (a) near the end of the interview, (b) right before transitioning to a different topic, and (c) to bring up information previously provided by the child in order to formulate the next question in a logical manner.
 
 In contrast, information-seeking prompts aim to gather new details that expand the narrative.
 
@@ -385,11 +395,11 @@ In contrast, information-seeking prompts aim to gather new details that expand t
 ::: {#nte-me .callout-note title="Minimal Encouragers"}
 Minimal encouragers signal to a speaker that they are being listened to and understood without breaking the interviewee’s train of thought. Minimal encouragers can be verbal (e.g., saying ‘uh huh’, ‘Mhmm’, repeating a few words the interviewee said) or non- verbal (e.g., head nodding).
 
--   ***Interviewee**: He gave me his number. **Interviewer**: Uh-huh.*
+-   ***Child**: He gave me his number. **Interviewer**: Uh-huh.*
 
 <!-- -->
 
--   ***Interviewee**: We went in the shed. **Interviewer**: In the shed? **Interviewee**: Yeah, and I sat on the couch and then he got the pictures.*
+-   ***Child**: We went in the shed. **Interviewer**: In the shed? **Child**: Yeah, and I sat on the couch and then he got the pictures.*
 :::
 
 ::: {#nte-oq .callout-note title="Helpful Tips"}

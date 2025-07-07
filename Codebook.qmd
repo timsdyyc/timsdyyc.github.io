@@ -15,6 +15,8 @@ format:
 editor: visual
 ---
 
+> The codebook should be applied in accordance with Coding Rules (see @sec-rules).
+
 # Information-Seeking Prompts
 
 Interviewer prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded.
@@ -85,17 +87,19 @@ C
 
     -   **Contact**: how the child and suspect came to know each other, how often child and suspect meet
 
+    -   **Body**: sexual body part knowledge
+
     ([BUT]{.underline} note that these details can be episodic if the interviewer is attempting to particularise a specific occurrence; e.g., “what year were you in the time it happened in the back garden?”). 
 
 RFI
 
-:   'Request for information': prompts requesting specific remembered details surrounding abusive acts
+:   'Request for information': prompts requesting specific episodic remembered details surrounding abusive acts
 
     -   **Suspect**: physical description (not usually relevant for known suspects like family members, teachers)
 
-    -   **People**: any other relevant people present
+    -   **People**: questions about the presence of any other people
 
-    -   **Location**
+    -   **Location:** to establish where the abuse happened or confirm presence in a place
 
     -   **Clothes**
 
@@ -103,15 +107,33 @@ RFI
 
     -   **Object**
 
-    -   **Timeframe**: prompts used to narrow down the timeframe of abuse (time of day/month/year)
+    -   **Timeframe**: prompts used to establish/narrow down the timeframe of abuse (time of day/month/year)
 
     -   **Time**: other temporal details
 
     -   **Disclosure**: details about prior disclosures of the abuse (including disclosure time, circumstances, recipients, potential discussions of the event, and reactions to disclosure by both the child and recipients)
 
-    -   **Action**: questions about actions that occurred (what people did)
+    -   **Action**: questions about actions and movements that occurred
 
-    -   **Gap**: other prompts requesting new details (see @nte-clarification). These include questions about reasons, causes, evaluations.
+        -   Includes questions aimed at establishing what happened (as part of a sequence of events)
+
+            -   "What did he do?"
+
+            -   "You'd been inside the house?"
+
+            -   "Did you go in his car?"
+
+            -   "You didn't pick your sister up?"
+
+        -   Even if a prompt mentions a location/object/person, if it’s primarily about what happened (or didn't happen), and is aimed at eliciting a sequence of events, it should be coded as `action`.
+
+            -   "Where were you going?"
+
+        -   Apart from wh-questions like "What did you do?", these questions are most often leading questions (see @nte-lq): yes/no questions, forced-choice questions or confirmation-seeking questions that introduce new information.
+
+    -   **Gap**: other prompts requesting new details (see @nte-clarification). These include questions about reasons, causes, or explanations.
+
+        -   often higher-order questions (e.g., "What made him say that?", "How did you know that?") that are also implicitly about actions
 
 ACT
 
@@ -140,9 +162,13 @@ E
 
     -   **Generic**: prompts from the interviewer seeking to elicit information about generalities/commonalities across occurrences (e.g., what usually happens)
 
-    -   **Ambiguous**: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This usually applies when the child has provided cues to suggest repeated abuse but the interviewer's prompts are in past tense. This can also apply when the child has only mentioned one occurrence so far but the interviewer's prompts are in timeless present tense.
+        -   Also use this code when multiple offences have been established, and the interviewer's prompts are in past tense, but the prompts are not explicitly about a specific time.
 
-    This code applies to the first information-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details about that particular occurrence/generic script.
+    -   **Unknown**: If the interviewer and child have not explicitly established that there are multiple offences, and the interviewer seems to be prompting about a specific time, even if the child provides some generic responses.
+
+    -   **Ambiguous**: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This applies when the interviewer's prompts are generic (e.g., in timeless present tense) when the interviewer and child have not explicitly established that there are multiple offences.
+
+    This code applies to the first information-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details.
 
 ## Repeated Abuse Prompts
 
@@ -174,7 +200,7 @@ Interviewer prompts to focus on eliciting episodic detail about a particular occ
 
 3.  Using a label previously provided by the child.
 
-4.  Using the terms “another time,” “other time,” “different time.”
+4.  Using the terms “another time,” “other time,” “different time” (includes "any other time")
 
 5.  Using the term “remember best.”
 
@@ -186,7 +212,9 @@ Interviewer prompts to focus on eliciting episodic detail about a particular occ
 
 9.  Using terms that suggest episodic details “did it ever happen on a birthday”
 
-This code does not apply to subsequent prompts in a series of consecutive prompts about a particular time. In other words, this code only applies when the interviewer is trying to transition into a discussion of a particular occurrence.
+::: {.callout-tip title="When to use `time` codes"}
+This code applies only to the interviewer's initial attempts to elicit details about a specific occurrence of abuse that has not yet been discussed. Once further questioning about that particular occurrence begins, the code no longer applies. It becomes relevant again only when the interviewer tried to initiate discussion about a new, previously unexplored occurrence.
+:::
 
 ### Difference
 
@@ -221,11 +249,11 @@ Interviewer prompts requesting information about when each event occurred, frequ
 |               |                 |               |               |               |
 | -   re2       | -   optional    | -   2         | -   filler    | -   reject    |
 |               |                 |               |               |               |
-| -   cue       | -   conditional | -   3         | -   refusal   | -   reject-l  |
+| -   cue       | -   conditional | -   3         | -   refusal   | -   same      |
 |               |                 |               |               |               |
-| -   single    | -   you         |               | -   idk       |               |
+| -   single    | -   you         |               | -   idk       | -   risk      |
 |               |                 |               |               |               |
-| -   ambiguous |                 |               | -   sidetrack |               |
+| -   ambiguous |                 |               | -   sidetrack | -   safe      |
 |               |                 |               |               |               |
 |               |                 |               | -   question  |               |
 |               |                 |               |               |               |
@@ -246,6 +274,8 @@ Initial disclosure: the earliest point at which the child disclosed an abusive e
 
 -   **cue:** Disclosure of abuse including linguistic cues (see below) suggesting that there is more than one event.
 
+    -   Include the cue type (e.g., `ot>cue>tense`; see @sec-cue)
+
 -   **single:** Disclosure of a single episode of abuse
 
 -   **ambiguous:** Disclosure of abusive experience that could be a single episode or repeated
@@ -254,13 +284,45 @@ Initial disclosure: the earliest point at which the child disclosed an abusive e
 
 Linguistic cues from the child’s response suggesting they are recalling general script information. *This code is used prior to the interviewer establishing repeated abuse (i.e., prior to any `event>generic`/`event>number` shifts).*
 
--   **tense:** Actions described in the timeless present tense.
+-   **Optional**
 
--   **optional:** Use of optional qualifiers (e.g., *sometimes, or, if*).
+    -   Optional qualifier: indicate that an act may or may not occur in a given instance.
+    -   Markers: *sometimes*, *usually*, *maybe*, *might*
+    -   Example: “We usually have the first snack on the roof.”
 
--   **conditional**: use of conditional qualifiers (e.g., whenever)
+-   **Alternative**
 
--   **you**: use of impersonal "you" pronoun
+    -   Alternative acts: Present competing options for the same event slot.
+    -   Markers: *or*
+    -   Example: “Then we go on the bus or our mommy picks us up.”
+
+-   **Conditional**
+
+    -   Conditional acts: Require specific preconditions for an act to occur, often expressed through enabling or temporal conditions.
+    -   Markers: *if*, *when*, *because*, *whenever*
+    -   Example: “Whenever we go to Grandma’s, we have cookies.”
+
+-   **Tense**
+
+    -   Timeless Present Tense: Describes general routines or procedures using present tense verbs.
+    -   Example: “We order food at a restaurant.”
+
+-   **You**
+
+    -   Impersonal "You" pronoun: Generalises the experience to any person, not the speaker or listener specifically. Usually only applies to statements in timeless present tense.
+    -   Example: “You go in, you sit down, you order.”
+
+-   **Habitual**
+
+    -   Habitual past constructions: Describe repeated actions in the past using specific grammatical forms.
+    -   Markers: *used to*, *would* (habitual use)
+    -   Example: “He used to order food at a restaurant.”
+
+-   **Always**
+
+    -   Other strong habitual markers: Emphasise consistent repetition across all instances.
+    -   Markers: *always*, *every time*, *each time*
+    -   Example: “We always eat popcorn during movies.”
 
 ## Story {#sec-story}
 
@@ -282,7 +344,9 @@ Off-track responses are responses that do not provide the information requested 
 
 -   **Refusal**: The child explicitly declines to answer the interviewer’s question, such as by stating, 'I don’t want to talk about that' or 'I won’t answer that.'"
 
--   **IDK**: Responses that express lack of memory, knowledge, or understanding, such as 'I don’t know,' 'I don’t remember,' 'I’m not sure,' or 'I don’t get what you mean.' This also includes 'no' responses to yes/no questions that probe for memory or knowledge (e.g., 'Do you remember what he was wearing?'). This does not include when the child also elaborates on their response, providing a guess about what the answer might be (e.g., When did that happen?” Child: “I don't know, but I think it was before Christmas some time, probably around the fall”).
+-   **IDK**: Responses that express lack of memory, knowledge, or understanding, such as 'I don’t know,' 'I don’t remember,' 'I’m not sure,' or 'I don’t get what you mean.' This does not include when the child also elaborates on their response, providing a guess about what the answer might be (e.g., When did that happen?” Child: “I don't know, but I think it was before Christmas some time, probably around the fall”).
+
+    -   Minimal responses like “no,” “not really,” or “I don’t think so” should not be coded as off-track if they directly address the interviewer’s question by denying the information raised. The exception is 'no' responses to yes/no questions that probe for memory or knowledge (e.g., 'Do you remember what he was wearing?')
 
 -   **Sidetrack**: A response that is overtly off-topic and non-substantive, such as shifting to an unrelated topic, discussing irrelevant events, or providing irrelevant personal anecdotes.
 
@@ -292,29 +356,25 @@ Off-track responses are responses that do not provide the information requested 
 
 -   **Multiple**: A response that contains details from other episodes of abuse besides the particular episode that the interviewer is asking about.
 
--   **Cue**: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse.
+-   **Cue**: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse. This only applies when the interviewer and child have explicitly established that there was repeated abuse.
 
--   **No**: The child says no when the interviewer suggests potential episodes of abuse (e.g., `time>9`, see [-@sec-time])
+    -   Include the cue type (e.g., `ot>cue>tense`; see @sec-cue)
 
 ### React {#sec-react}
 
-[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.**]{.underline} The code should be applied to the interviewer's subsequent prompt and account for all the interviewer's reactions following the off-track response until the prompt.
+[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.**]{.underline} The code (adapted from [Earhart et al. 2019](https://onlinelibrary.wiley.com/doi/10.1002/bsl.2141)) should be applied to the interviewer's subsequent prompt and account for all the interviewer's reactions following the off-track response until the prompt.
 
-**Accept**: The interviewer supportively acknowledges the child’s off-track response, moves on to the next logical question, adapts their approach and/or refocuses the conversation. This can include:
+**Accept**: The interviewer accepts the child’s off-track response by either:
 
-1.  The interviewer shifts to a different topic or asks about a different aspect, signaling to the child that their off-track response is acceptable.
+-   Making a supportive or encouraging comment (e.g., “That’s okay,” “Thank you for telling me that”),
 
-2.  The interviewer simplifies or reframes the question, making it easier for the child to respond.
+-   Moving on to a different topic or the next logical question, without returning to the original prompt,
 
-    -   Interviewer: "Has it happened many times?"
+-   Refocusing the conversation on something the child has previously mentioned, without signalling dissatisfaction.
 
-    -   Child: "I don’t know."
+**Reject**: The interviewer does not accept the off-track response, and instead continues to ask about the same information or makes negative comments about the child's response, increasing the pressure to provide an answer.
 
-    -   Interviewer: "Has it happened one time or more than one time?"
-
-**Reject**: The interviewer disregards the child's response and persists in requesting the same information.
-
-1.  Increases pressure on the child to respond: The interviewer repeats or reframes the question without adapting it meaningfully, signaling that the child is expected to provide an answer.
+1.  Increases pressure on the child to respond: The interviewer repeats/reframes the question or continues to ask about the same information, ignoring the child's off-track response.
 
     -   Interviewer: "Has it happened many times?"
 
@@ -322,9 +382,37 @@ Off-track responses are responses that do not provide the information requested 
 
     -   Interviewer: "How many times has it happened?"
 
-2.  Signals dissatisfaction with the child’s off-track response
+    -   The interviewer's subsequent prompt signals to the child that they have not answered the question and that their response was not legitimate.
 
-**Reject-L**: This is an extension of the code above. It is used when the interviewer's reaction also includes a leading question (see @nte-lq) that introduces information the child has not mentioned previously or that implies a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources.
+2.  Comments that signal dissatisfaction with the child’s off-track response
+
+Additionally, code the interviewer's subsequent prompt in relation to the original eliciting question as:
+
+-   **same**: same question type category
+
+-   **risk**: riskier question type category (higher number)
+
+-   **safe**: safer question type category (lower number)
+
+If more than one category applies, use the higher numbered category.
+
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| Type              | Explanation                                                                                                                                                                                                                                                                                                       | Example                                                                   |
++===================+===================================================================================================================================================================================================================================================================================================================+===========================================================================+
+| 1\. Invitation    | Free recall questions which encouraged the child to freely recall any aspect of the event(s) and minimal encouragers that included very little information but prompted the child to continue.                                                                                                                    | ‘Tell me everything that happened’ ‘Uhuh’ Echoing the child's words       |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| 2\. Directive     | Free recall questions on a cued topic, including wh- questions (e.g. what, where, when, who, why).                                                                                                                                                                                                                | 'Where did that happen?'                                                  |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| 3\. Option-posing | All questions that required a ‘Yes’ or ‘No’ answer (including "can you" questions) and forced choice questions which include answers for the child to choose between.                                                                                                                                             | 'Did you hit your head or your knee?’                                     |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| 4\. Multiple      | Single utterances in which the interviewer asked more than one question, and utterances in which the interviewer summarised what the child had said previously, either with or without including a direct question (children often respond to these summaries as if they have been asked to confirm the summary). | ‘Did you see the man? What did he look like? Where was he?'               |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| 5\. Suggestive    | Questions that introduce information the child has not mentioned previously or that imply a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources.                                                                    | Your mum told me your brother hurt you, what do you remember about that?’ |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| 6\. Unknown       | Questions that were not clearly transcribed, parts of the question were missing, or questions which were unfinished, either due to the child interrupting or the interviewer changing their question.                                                                                                             | ‘When <unclear> the man?’                                                 |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+
+: Question Type Categories (adapted from Griffiths Question Map) {.info .hover .sm}
 
 # Other Codes
 
@@ -350,13 +438,13 @@ Response/prompt is inaudible/indistinct (as noted in the transcription) and cann
 
 -   Includes situations where the interviewer proposes a break, then continues with the interview anyway.
 
-# Coding Rules
+# Coding Rules {#sec-rules}
 
 1.  Codes should be applied under 3 columns. Column 1: Open Questions & Topic Shifts; Column 2: Event Shifts and Repeated Abuse Prompts; Column 3: Child Responses & Other Codes.
 
-2.  Codes are not mutually exclusive, \>1 code can be applied at each turn (use commas to separate them when applicable).
+2.  Codes are not mutually exclusive, more than one code can be applied at each turn (use commas to separate them when applicable).
 
-3.  If multiple sub-categories of the same code apply to a single turn, you can use this syntax `code>sub-category1>sub-category2>...` (e.g., `cue>conditional>optional`, `story>1>2`). The order of the sub-categories should match the order in the response/prompt.
+3.  If multiple sub-categories of the same code apply to a single turn, use the syntax: `code>sub-category1:sub-category2:...` (e.g., `cue>conditional:optional`, `story>1:2`). The order of the sub-categories should match the order in which they appear in the turn.
 
 4.  Child responses to interviewer facilitators (non-suggestive words, such as 'ok' or 'yes') and minimal encouragers (see @nte-me) that encourage them to continue an ongoing response to the previous prompt are attributed to the preceding information-seeking prompt.
 
@@ -364,7 +452,13 @@ Response/prompt is inaudible/indistinct (as noted in the transcription) and cann
 
 6.  If it takes the interviewer multiple turns to finish asking their question, code the final turn. This can happen when the interviewer is contextualising their prompt by summarising or clarifying previously discussed information.
 
-7.  Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.
+7.  If the interviewer repeats a prompt when the child does not respond, or in order to clarify, only code the final prompt.
+
+> | *Q.  All right.  So I just want to work out before we go into the other bits, when you say, “my thingy”, what do you mean by “my thingy”?*
+> | *A.  Um - -*
+> | *Q.  What’s another word that you have for your thingy?*
+
+8.  Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.
 
 # Notes
 
@@ -375,7 +469,7 @@ Context prompts are usually used for requesting semantic information ("known inf
 :::
 
 ::: {#nte-clarification .callout-note title="Clarification-/Confirmation-Seeking Prompts"}
-*Clarification-seeking* prompts do **not seek new information** but instead clarify details already shared by the child (e.g., clarifying inconsistencies and vagueness in the child's account)
+*Clarification-seeking* prompts do **not seek new information** but instead clarify details already shared by the child (i.e., clarifying inconsistencies and vagueness in the child's account)
 
 -   When you say your brother, which brother is that?
 

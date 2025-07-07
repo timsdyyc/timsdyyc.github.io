@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   </ul></li>
   <li><a href="#other-codes" id="toc-other-codes" class="nav-link" data-scroll-target="#other-codes"><span class="header-section-number">3</span> Other Codes</a></li>
-  <li><a href="#coding-rules" id="toc-coding-rules" class="nav-link" data-scroll-target="#coding-rules"><span class="header-section-number">4</span> Coding Rules</a></li>
+  <li><a href="#sec-rules" id="toc-sec-rules" class="nav-link" data-scroll-target="#sec-rules"><span class="header-section-number">4</span> Coding Rules</a></li>
   <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes"><span class="header-section-number">5</span> Notes</a></li>
   </ul>
 </nav>
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">29 Jun, 2025</p>
+      <p class="date-modified">7 Jul, 2025</p>
     </div>
   </div>
     
@@ -109,6 +109,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<blockquote class="blockquote">
+<p>The codebook should be applied in accordance with Coding Rules (see <a href="#sec-rules" class="quarto-xref">Chapter&nbsp;4</a>).</p>
+</blockquote>
 <section id="information-seeking-prompts" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Information-Seeking Prompts</h1>
 <p>Interviewer prompts that are not information-seeking, including minimal encouragers (see <a href="#nte-me" class="quarto-xref">Note&nbsp;5.3</a>) and clarification-/confirmation-seeking prompts (see <a href="#nte-clarification" class="quarto-xref">Note&nbsp;5.2</a>), will not be coded.</p>
@@ -183,24 +186,42 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Location</strong>: facts about locations (e.g., layout of house, child’s address at the time)</p></li>
 <li><p><strong>Time</strong>: temporally relevant facts (e.g., what classroom/term the child was in at the time)</p></li>
 <li><p><strong>Contact</strong>: how the child and suspect came to know each other, how often child and suspect meet</p></li>
+<li><p><strong>Body</strong>: sexual body part knowledge</p></li>
 </ul>
 <p>(<u>BUT</u> note that these details can be episodic if the interviewer is attempting to particularise a specific occurrence; e.g., “what year were you in the time it happened in the back garden?”).&nbsp;</p>
 </dd>
 <dt>RFI</dt>
 <dd>
-<p>‘Request for information’: prompts requesting specific remembered details surrounding abusive acts</p>
+<p>‘Request for information’: prompts requesting specific episodic remembered details surrounding abusive acts</p>
 <ul>
 <li><p><strong>Suspect</strong>: physical description (not usually relevant for known suspects like family members, teachers)</p></li>
-<li><p><strong>People</strong>: any other relevant people present</p></li>
-<li><p><strong>Location</strong></p></li>
+<li><p><strong>People</strong>: questions about the presence of any other people</p></li>
+<li><p><strong>Location:</strong> to establish where the abuse happened or confirm presence in a place</p></li>
 <li><p><strong>Clothes</strong></p></li>
 <li><p><strong>Words</strong>: gist of conversations</p></li>
 <li><p><strong>Object</strong></p></li>
-<li><p><strong>Timeframe</strong>: prompts used to narrow down the timeframe of abuse (time of day/month/year)</p></li>
+<li><p><strong>Timeframe</strong>: prompts used to establish/narrow down the timeframe of abuse (time of day/month/year)</p></li>
 <li><p><strong>Time</strong>: other temporal details</p></li>
 <li><p><strong>Disclosure</strong>: details about prior disclosures of the abuse (including disclosure time, circumstances, recipients, potential discussions of the event, and reactions to disclosure by both the child and recipients)</p></li>
-<li><p><strong>Action</strong>: questions about actions that occurred (what people did)</p></li>
-<li><p><strong>Gap</strong>: other prompts requesting new details (see <a href="#nte-clarification" class="quarto-xref">Note&nbsp;5.2</a>). These include questions about reasons, causes, evaluations.</p></li>
+<li><p><strong>Action</strong>: questions about actions and movements that occurred</p>
+<ul>
+<li><p>Includes questions aimed at establishing what happened (as part of a sequence of events)</p>
+<ul>
+<li><p>“What did he do?”</p></li>
+<li><p>“You’d been inside the house?”</p></li>
+<li><p>“Did you go in his car?”</p></li>
+<li><p>“You didn’t pick your sister up?”</p></li>
+</ul></li>
+<li><p>Even if a prompt mentions a location/object/person, if it’s primarily about what happened (or didn’t happen), and is aimed at eliciting a sequence of events, it should be coded as <code>action</code>.</p>
+<ul>
+<li>“Where were you going?”</li>
+</ul></li>
+<li><p>Apart from wh-questions like “What did you do?”, these questions are most often leading questions (see <a href="#nte-lq" class="quarto-xref">Note&nbsp;5.5</a>): yes/no questions, forced-choice questions or confirmation-seeking questions that introduce new information.</p></li>
+</ul></li>
+<li><p><strong>Gap</strong>: other prompts requesting new details (see <a href="#nte-clarification" class="quarto-xref">Note&nbsp;5.2</a>). These include questions about reasons, causes, or explanations.</p>
+<ul>
+<li>often higher-order questions (e.g., “What made him say that?”, “How did you know that?”) that are also implicitly about actions</li>
+</ul></li>
 </ul>
 </dd>
 <dt>ACT</dt>
@@ -231,10 +252,14 @@ ul.task-list li input[type="checkbox"] {
 <p>This code is used to signal the start of the phase of the interview discussing a particular occurrence of abuse or the generic script of the abuse.</p>
 <ul>
 <li><p>Event number (<strong>1,2,3…</strong>): corresponds to the order in which the event is raised during the interview (not related to the labels used, e.g., first time)</p></li>
-<li><p><strong>Generic</strong>: prompts from the interviewer seeking to elicit information about generalities/commonalities across occurrences (e.g., what usually happens)</p></li>
-<li><p><strong>Ambiguous</strong>: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This usually applies when the child has provided cues to suggest repeated abuse but the interviewer’s prompts are in past tense. This can also apply when the child has only mentioned one occurrence so far but the interviewer’s prompts are in timeless present tense.</p></li>
+<li><p><strong>Generic</strong>: prompts from the interviewer seeking to elicit information about generalities/commonalities across occurrences (e.g., what usually happens)</p>
+<ul>
+<li>Also use this code when multiple offences have been established, and the interviewer’s prompts are in past tense, but the prompts are not explicitly about a specific time.</li>
+</ul></li>
+<li><p><strong>Unknown</strong>: If the interviewer and child have not explicitly established that there are multiple offences, and the interviewer seems to be prompting about a specific time, even if the child provides some generic responses.</p></li>
+<li><p><strong>Ambiguous</strong>: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This applies when the interviewer’s prompts are generic (e.g., in timeless present tense) when the interviewer and child have not explicitly established that there are multiple offences.</p></li>
 </ul>
-<p>This code applies to the first information-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details about that particular occurrence/generic script.</p>
+<p>This code applies to the first information-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details.</p>
 </dd>
 </dl>
 </section>
@@ -260,14 +285,26 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Using the term “first time.”</p></li>
 <li><p>Using the term “last time.”</p></li>
 <li><p>Using a label previously provided by the child.</p></li>
-<li><p>Using the terms “another time,” “other time,” “different time.”</p></li>
+<li><p>Using the terms “another time,” “other time,” “different time” (includes “any other time”)</p></li>
 <li><p>Using the term “remember best.”</p></li>
 <li><p>Using the term “one time,” “a time,” “any time.”</p></li>
 <li><p>Using the term “that time” in reference to the label raised by the child.</p></li>
 <li><p>Using the term “next time.”</p></li>
 <li><p>Using terms that suggest episodic details “did it ever happen on a birthday”</p></li>
 </ol>
-<p>This code does not apply to subsequent prompts in a series of consecutive prompts about a particular time. In other words, this code only applies when the interviewer is trying to transition into a discussion of a particular occurrence.</p>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled" title="When to use `time` codes">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+When to use <code>time</code> codes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This code applies only to the interviewer’s initial attempts to elicit details about a specific occurrence of abuse that has not yet been discussed. Once further questioning about that particular occurrence begins, the code no longer applies. It becomes relevant again only when the interviewer tried to initiate discussion about a new, previously unexplored occurrence.</p>
+</div>
+</div>
 </section>
 <section id="difference" class="level3">
 <h3 class="anchored" data-anchor-id="difference">Difference</h3>
@@ -348,7 +385,9 @@ ul.task-list li input[type="checkbox"] {
 <td><ul>
 <li><p>accept</p></li>
 <li><p>reject</p></li>
-<li><p>reject-l</p></li>
+<li><p>same</p></li>
+<li><p>risk</p></li>
+<li><p>safe</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -359,7 +398,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><strong>re1</strong>: Disclosure of abuse including episodic labels/details that are differentiated as different occurrences of abuse.</p></li>
 <li><p><strong>re2:</strong>&nbsp;Disclosure that abuse has occurred a certain number of times or “more than once” without specific episodic labels/details.</p></li>
-<li><p><strong>cue:</strong>&nbsp;Disclosure of abuse including linguistic cues (see below) suggesting that there is more than one event.</p></li>
+<li><p><strong>cue:</strong>&nbsp;Disclosure of abuse including linguistic cues (see below) suggesting that there is more than one event.</p>
+<ul>
+<li>Include the cue type (e.g., <code>ot&gt;cue&gt;tense</code>; see <a href="#sec-cue" class="quarto-xref">Section&nbsp;2.2</a>)</li>
+</ul></li>
 <li><p><strong>single:</strong>&nbsp;Disclosure of a single episode of abuse</p></li>
 <li><p><strong>ambiguous:</strong>&nbsp;Disclosure of abusive experience that could be a single episode or repeated</p></li>
 </ul>
@@ -368,10 +410,46 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="2.2" class="anchored" data-anchor-id="sec-cue"><span class="header-section-number">2.2</span> Cue</h2>
 <p>Linguistic cues from the child’s response suggesting they are recalling general script information. <em>This code is used prior to the interviewer establishing repeated abuse (i.e., prior to any <code>event&gt;generic</code>/<code>event&gt;number</code> shifts).</em></p>
 <ul>
-<li><p><strong>tense:</strong>&nbsp;Actions described in the timeless present tense.</p></li>
-<li><p><strong>optional:</strong>&nbsp;Use of optional qualifiers (e.g.,&nbsp;<em>sometimes, or, if</em>).</p></li>
-<li><p><strong>conditional</strong>: use of conditional qualifiers (e.g., whenever)</p></li>
-<li><p><strong>you</strong>: use of impersonal “you” pronoun</p></li>
+<li><p><strong>Optional</strong></p>
+<ul>
+<li>Optional qualifier: indicate that an act may or may not occur in a given instance.</li>
+<li>Markers:&nbsp;<em>sometimes</em>,&nbsp;<em>usually</em>,&nbsp;<em>maybe</em>,&nbsp;<em>might</em></li>
+<li>Example: “We usually have the first snack on the roof.”</li>
+</ul></li>
+<li><p><strong>Alternative</strong></p>
+<ul>
+<li>Alternative acts: Present competing options for the same event slot.</li>
+<li>Markers:&nbsp;<em>or</em></li>
+<li>Example: “Then we go on the bus or our mommy picks us up.”</li>
+</ul></li>
+<li><p><strong>Conditional</strong></p>
+<ul>
+<li>Conditional acts: Require specific preconditions for an act to occur, often expressed through enabling or temporal conditions.</li>
+<li>Markers:&nbsp;<em>if</em>,&nbsp;<em>when</em>,&nbsp;<em>because</em>,&nbsp;<em>whenever</em></li>
+<li>Example: “Whenever we go to Grandma’s, we have cookies.”</li>
+</ul></li>
+<li><p><strong>Tense</strong></p>
+<ul>
+<li>Timeless Present Tense: Describes general routines or procedures using present tense verbs.</li>
+<li>Example: “We order food at a restaurant.”</li>
+</ul></li>
+<li><p><strong>You</strong></p>
+<ul>
+<li>Impersonal “You” pronoun: Generalises the experience to any person, not the speaker or listener specifically. Usually only applies to statements in timeless present tense.</li>
+<li>Example: “You go in, you sit down, you order.”</li>
+</ul></li>
+<li><p><strong>Habitual</strong></p>
+<ul>
+<li>Habitual past constructions: Describe repeated actions in the past using specific grammatical forms.</li>
+<li>Markers:&nbsp;<em>used to</em>,&nbsp;<em>would</em>&nbsp;(habitual use)</li>
+<li>Example: “He used to order food at a restaurant.”</li>
+</ul></li>
+<li><p><strong>Always</strong></p>
+<ul>
+<li>Other strong habitual markers: Emphasise consistent repetition across all instances.</li>
+<li>Markers:&nbsp;<em>always</em>,&nbsp;<em>every time</em>,&nbsp;<em>each time</em></li>
+<li>Example: “We always eat popcorn during movies.”</li>
+</ul></li>
 </ul>
 </section>
 <section id="sec-story" class="level2" data-number="2.3">
@@ -390,38 +468,93 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Silence</strong>: The child does not provide a verbal or gestural response to the question.</p></li>
 <li><p><strong>Filler</strong>: The child’s response is comprised of only filler words (e.g., umm, ahh).</p></li>
 <li><p><strong>Refusal</strong>: The child explicitly declines to answer the interviewer’s question, such as by stating, ‘I don’t want to talk about that’ or ‘I won’t answer that.’”</p></li>
-<li><p><strong>IDK</strong>: Responses that express lack of memory, knowledge, or understanding, such as ‘I don’t know,’ ‘I don’t remember,’ ‘I’m not sure,’ or ‘I don’t get what you mean.’ This also includes ‘no’ responses to yes/no questions that probe for memory or knowledge (e.g., ‘Do you remember what he was wearing?’). This does not include when the child also elaborates on their response, providing a guess about what the answer might be (e.g., When did that happen?” Child: “I don’t know, but I think it was before Christmas some time, probably around the fall”).</p></li>
+<li><p><strong>IDK</strong>: Responses that express lack of memory, knowledge, or understanding, such as ‘I don’t know,’ ‘I don’t remember,’ ‘I’m not sure,’ or ‘I don’t get what you mean.’ This does not include when the child also elaborates on their response, providing a guess about what the answer might be (e.g., When did that happen?” Child: “I don’t know, but I think it was before Christmas some time, probably around the fall”).</p>
+<ul>
+<li>Minimal responses like “no,” “not really,” or “I don’t think so” should not be coded as off-track if they directly address the interviewer’s question by denying the information raised. The exception is ‘no’ responses to yes/no questions that probe for memory or knowledge (e.g., ‘Do you remember what he was wearing?’)</li>
+</ul></li>
 <li><p><strong>Sidetrack</strong>: A response that is overtly off-topic and non-substantive, such as shifting to an unrelated topic, discussing irrelevant events, or providing irrelevant personal anecdotes.</p></li>
 <li><p><strong>Question</strong>: An uninvited question posed by the child in response to the interviewer’s prompt. This includes questions that divert attention from the topic at hand, such as ‘Why do you need to know that?’ or ‘Can I go now?’ Clarification-seeking questions, rhetorical questions, or questions recounted in dialogue (e.g., ‘Then he said, “What are you doing here?”’) are excluded because they engage with the topic or provide relevant context.</p></li>
 <li><p><strong>Repeat</strong>: A response that repeats information already discussed in the interview without elaborating or adding new details.</p></li>
 <li><p><strong>Multiple</strong>: A response that contains details from other episodes of abuse besides the particular episode that the interviewer is asking about.</p></li>
-<li><p><strong>Cue</strong>: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse.</p></li>
-<li><p><strong>No</strong>: The child says no when the interviewer suggests potential episodes of abuse (e.g., <code>time&gt;9</code>, see <a href="#sec-time" class="quarto-xref">1.4.2</a>)</p></li>
+<li><p><strong>Cue</strong>: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse. This only applies when the interviewer and child have explicitly established that there was repeated abuse.</p>
+<ul>
+<li>Include the cue type (e.g., <code>ot&gt;cue&gt;tense</code>; see <a href="#sec-cue" class="quarto-xref">Section&nbsp;2.2</a>)</li>
+</ul></li>
 </ul>
 <section id="sec-react" class="level3">
 <h3 class="anchored" data-anchor-id="sec-react">React</h3>
-<p><u><strong>SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.</strong></u> The code should be applied to the interviewer’s subsequent prompt and account for all the interviewer’s reactions following the off-track response until the prompt.</p>
-<p><strong>Accept</strong>: The interviewer supportively&nbsp;acknowledges&nbsp;the child’s off-track response, moves on to the next logical question, adapts their approach and/or refocuses the conversation. This can include:</p>
-<ol type="1">
-<li><p>The interviewer shifts to a different topic or asks about a different aspect, signaling to the child that their off-track response is acceptable.</p></li>
-<li><p>The interviewer simplifies or reframes the question, making it easier for the child to respond.</p>
+<p><u><strong>SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.</strong></u> The code (adapted from <a href="https://onlinelibrary.wiley.com/doi/10.1002/bsl.2141">Earhart et al.&nbsp;2019</a>) should be applied to the interviewer’s subsequent prompt and account for all the interviewer’s reactions following the off-track response until the prompt.</p>
+<p><strong>Accept</strong>: The interviewer accepts the child’s off-track response by either:</p>
 <ul>
-<li><p>Interviewer:&nbsp;“Has it happened many times?”</p></li>
-<li><p>Child:&nbsp;“I don’t know.”</p></li>
-<li><p>Interviewer:&nbsp;“Has it happened one time or more than one time?”</p></li>
-</ul></li>
-</ol>
-<p><strong>Reject</strong>: The interviewer disregards the child’s response and persists in requesting the same information.</p>
+<li><p>Making a supportive or encouraging comment (e.g., “That’s okay,” “Thank you for telling me that”),</p></li>
+<li><p>Moving on to a different topic or the next logical question, without returning to the original prompt,</p></li>
+<li><p>Refocusing the conversation on something the child has previously mentioned, without signalling dissatisfaction.</p></li>
+</ul>
+<p><strong>Reject</strong>: The interviewer does not accept the off-track response, and instead continues to ask about the same information or makes negative comments about the child’s response, increasing the pressure to provide an answer.</p>
 <ol type="1">
-<li><p>Increases pressure on the child to respond: The interviewer repeats or reframes the question without adapting it meaningfully, signaling that the child is expected to provide an answer.</p>
+<li><p>Increases pressure on the child to respond: The interviewer repeats/reframes the question or continues to ask about the same information, ignoring the child’s off-track response.</p>
 <ul>
 <li><p>Interviewer:&nbsp;“Has it happened many times?”</p></li>
 <li><p>Child:&nbsp;“I don’t know.”</p></li>
 <li><p>Interviewer:&nbsp;“How many times has it happened?”</p></li>
+<li><p>The interviewer’s subsequent prompt signals to the child that they have not answered the question and that their response was not legitimate.</p></li>
 </ul></li>
-<li><p>Signals dissatisfaction with the child’s off-track response</p></li>
+<li><p>Comments that signal dissatisfaction with the child’s off-track response</p></li>
 </ol>
-<p><strong>Reject-L</strong>: This is an extension of the code above. It is used when the interviewer’s reaction also includes a leading question (see <a href="#nte-lq" class="quarto-xref">Note&nbsp;5.5</a>) that introduces information the child has not mentioned previously or that implies a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources.</p>
+<p>Additionally, code the interviewer’s subsequent prompt in relation to the original eliciting question as:</p>
+<ul>
+<li><p><strong>same</strong>: same question type category</p></li>
+<li><p><strong>risk</strong>: riskier question type category (higher number)</p></li>
+<li><p><strong>safe</strong>: safer question type category (lower number)</p></li>
+</ul>
+<p>If more than one category applies, use the higher numbered category.</p>
+<table class="table-info table-hover table-sm small caption-top table">
+<caption>Question Type Categories (adapted from Griffiths Question Map)</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 76%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Explanation</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Invitation</td>
+<td>Free recall questions which encouraged the child to freely recall any aspect of the event(s) and minimal encouragers that included very little information but prompted the child to continue.</td>
+<td>‘Tell me everything that happened’ ‘Uhuh’ Echoing the child’s words</td>
+</tr>
+<tr class="even">
+<td>2. Directive</td>
+<td>Free recall questions on a cued topic, including wh- questions (e.g.&nbsp;what, where, when, who, why).</td>
+<td>‘Where did that happen?’</td>
+</tr>
+<tr class="odd">
+<td>3. Option-posing</td>
+<td>All questions that required a ‘Yes’ or ‘No’ answer (including “can you” questions) and forced choice questions which include answers for the child to choose between.</td>
+<td>‘Did you hit your head or your knee?’</td>
+</tr>
+<tr class="even">
+<td>4. Multiple</td>
+<td>Single utterances in which the interviewer asked more than one question, and utterances in which the interviewer summarised what the child had said previously, either with or without including a direct question (children often respond to these summaries as if they have been asked to confirm the summary).</td>
+<td>‘Did you see the man? What did he look like? Where was he?’</td>
+</tr>
+<tr class="odd">
+<td>5. Suggestive</td>
+<td>Questions that introduce information the child has not mentioned previously or that imply a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources.</td>
+<td>Your mum told me your brother hurt you, what do you remember about that?’</td>
+</tr>
+<tr class="even">
+<td>6. Unknown</td>
+<td>Questions that were not clearly transcribed, parts of the question were missing, or questions which were unfinished, either due to the child interrupting or the interviewer changing their question.</td>
+<td>‘When <unclear> the man?’</unclear></td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 </section>
@@ -447,16 +580,24 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Includes situations where the interviewer proposes a break, then continues with the interview anyway.</p></li>
 </ul>
 </section>
-<section id="coding-rules" class="level1" data-number="4">
+<section id="sec-rules" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Coding Rules</h1>
 <ol type="1">
 <li><p>Codes should be applied under 3 columns. Column 1: Open Questions &amp; Topic Shifts; Column 2: Event Shifts and Repeated Abuse Prompts; Column 3: Child Responses &amp; Other Codes.</p></li>
-<li><p>Codes are not mutually exclusive, &gt;1 code can be applied at each turn (use commas to separate them when applicable).</p></li>
-<li><p>If multiple sub-categories of the same code apply to a single turn, you can use this syntax <code>code&gt;sub-category1&gt;sub-category2&gt;...</code> (e.g., <code>cue&gt;conditional&gt;optional</code>, <code>story&gt;1&gt;2</code>). The order of the sub-categories should match the order in the response/prompt.</p></li>
+<li><p>Codes are not mutually exclusive, more than one code can be applied at each turn (use commas to separate them when applicable).</p></li>
+<li><p>If multiple sub-categories of the same code apply to a single turn, use the syntax: <code>code&gt;sub-category1:sub-category2:...</code> (e.g., <code>cue&gt;conditional:optional</code>, <code>story&gt;1:2</code>). The order of the sub-categories should match the order in which they appear in the turn.</p></li>
 <li><p>Child responses to interviewer facilitators (non-suggestive words, such as ‘ok’ or ‘yes’) and minimal encouragers (see <a href="#nte-me" class="quarto-xref">Note&nbsp;5.3</a>) that encourage them to continue an ongoing response to the previous prompt are attributed to the preceding information-seeking prompt.</p></li>
 <li><p>Code the final prompt from the interviewer if more than one question is asked in a turn.</p></li>
 <li><p>If it takes the interviewer multiple turns to finish asking their question, code the final turn. This can happen when the interviewer is contextualising their prompt by summarising or clarifying previously discussed information.</p></li>
-<li><p>Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.</p></li>
+<li><p>If the interviewer repeats a prompt when the child does not respond, or in order to clarify, only code the final prompt.</p></li>
+</ol>
+<blockquote class="blockquote">
+<div class="line-block"><em>Q. All right. So I just want to work out before we go into the other bits, when you say, “my thingy”, what do you mean by “my thingy”?</em><br>
+<em>A.&nbsp; Um - -</em><br>
+<em>Q.&nbsp; What’s another word that you have for your thingy?</em></div>
+</blockquote>
+<ol start="8" type="1">
+<li>Coding ends when the interviewer either asks “are there any other times X…” (or similar) and the child says no and no further occurrences arise, or when the interviewer begins procedural duties at the end of the interview (e.g., was everything you told me today the truth?). If the interviewer returns to questioning about the abuse, continue coding.</li>
 </ol>
 </section>
 <section id="notes" class="level1" data-number="5">
@@ -485,7 +626,7 @@ Note&nbsp;5.2: Clarification-/Confirmation-Seeking Prompts
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Clarification-seeking</em> prompts do&nbsp;<strong>not seek new information</strong>&nbsp;but instead clarify details already shared by the child (e.g., clarifying inconsistencies and vagueness in the child’s account)</p>
+<p><em>Clarification-seeking</em> prompts do&nbsp;<strong>not seek new information</strong>&nbsp;but instead clarify details already shared by the child (i.e., clarifying inconsistencies and vagueness in the child’s account)</p>
 <ul>
 <li><p>When you say your brother, which brother is that?</p></li>
 <li><p>You heard him say that?</p></li>

@@ -19,7 +19,7 @@ editor: visual
 
 # Information-Seeking Prompts
 
-Interviewer prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded.
+Interviewer prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded unless otherwise specified.
 
 ## Open Questions {#sec-oq}
 
@@ -44,6 +44,10 @@ BQ
 DQ
 
 :   Open-ended depth question
+
+AE
+
+:   Anything else: yes/no questions that use the phrase "anything else"
 :::
 
 Open-ended questions encourage an elaborate response but do not tell an interviewee what specific information is required. Interviewees have the freedom to choose what information will be reported and to narrate what happened in their own words (see @nte-oq).
@@ -140,6 +144,8 @@ ACT
 :   Details that are central to, and delineate the structure of, the abusive act.
 
     -   **Action**: seeking details explaining the overall actions that happened during the abuse (e.g., "What did he do?")
+    -   **Gap**: questions about reasons, causes, or explanations.
+    -   **Location**: where people are positioned in relation to the environment where the abuse happened
     -   **Body**: movement and positioning of victim/suspect body parts
     -   **Clothes**: placement and removal (establishing whether skin-to-skin contact occurred)
     -   **Subjective**: victim’s thoughts and emotions
@@ -168,7 +174,7 @@ E
 
     -   **Ambiguous**: use when it is unclear if the interviewer aims to elicit specific/episodic or generic details. This applies when the interviewer's prompts are generic (e.g., in timeless present tense) when the interviewer and child have not explicitly established that there are multiple offences.
 
-    This code applies to the first information-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details.
+    This code applies to the first information-seeking prompt or clarification-seeking prompt about the particular occurrence/generic script that the child responds to with forensically relevant details.
 
 ## Repeated Abuse Prompts
 
@@ -454,7 +460,7 @@ Response/prompt is inaudible/indistinct (as noted in the transcription) and cann
 
 7.  If the interviewer repeats a prompt when the child does not respond, or in order to clarify, only code the final prompt.
 
-> | *Q.  All right.  So I just want to work out before we go into the other bits, when you say, “my thingy”, what do you mean by “my thingy”?*
+> | *Q. All right. So I just want to work out before we go into the other bits, when you say, “my thingy”, what do you mean by “my thingy”?*
 > | *A.  Um - -*
 > | *Q.  What’s another word that you have for your thingy?*
 

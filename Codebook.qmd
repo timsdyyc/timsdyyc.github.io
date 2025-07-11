@@ -21,7 +21,7 @@ editor: visual
 
 Interviewer prompts that are not information-seeking, including minimal encouragers (see @nte-me) and clarification-/confirmation-seeking prompts (see @nte-clarification), will not be coded unless otherwise specified.
 
-## Open Questions {#sec-oq}
+## "Open" Questions {#sec-oq}
 
 ::: panel-sidebar
 
@@ -141,7 +141,7 @@ RFI
 
 ACT
 
-:   Details that are central to, and delineate the structure of, the abusive act.
+:   Details that are central to, and delineate the structure of, the abusive act (e.g., nature, invasiveness).
 
     -   **Action**: seeking details explaining the overall actions that happened during the abuse (e.g., "What did he do?")
     -   **Gap**: questions about reasons, causes, or explanations.
@@ -290,45 +290,32 @@ Initial disclosure: the earliest point at which the child disclosed an abusive e
 
 Linguistic cues from the child’s response suggesting they are recalling general script information. *This code is used prior to the interviewer establishing repeated abuse (i.e., prior to any `event>generic`/`event>number` shifts).*
 
--   **Optional**
+-   **Optional:** indicate that an act may or may not occur in a given instance.
 
-    -   Optional qualifier: indicate that an act may or may not occur in a given instance.
-    -   Markers: *sometimes*, *usually*, *maybe*, *might*
+    -   Markers: *sometimes*, *usually*, *maybe*, *might, or*
     -   Example: “We usually have the first snack on the roof.”
-
--   **Alternative**
-
-    -   Alternative acts: Present competing options for the same event slot.
-    -   Markers: *or*
     -   Example: “Then we go on the bus or our mommy picks us up.”
 
--   **Conditional**
+-   **Conditional:** require specific conditions for an act to occur
 
-    -   Conditional acts: Require specific preconditions for an act to occur, often expressed through enabling or temporal conditions.
     -   Markers: *if*, *when*, *because*, *whenever*
     -   Example: “Whenever we go to Grandma’s, we have cookies.”
 
--   **Tense**
+-   **Tense:** describes general routines or procedures using timeless present tense
 
-    -   Timeless Present Tense: Describes general routines or procedures using present tense verbs.
     -   Example: “We order food at a restaurant.”
 
--   **You**
+-   **Habitual:** Describe repeated actions in the past
 
-    -   Impersonal "You" pronoun: Generalises the experience to any person, not the speaker or listener specifically. Usually only applies to statements in timeless present tense.
-    -   Example: “You go in, you sit down, you order.”
-
--   **Habitual**
-
-    -   Habitual past constructions: Describe repeated actions in the past using specific grammatical forms.
     -   Markers: *used to*, *would* (habitual use)
     -   Example: “He used to order food at a restaurant.”
 
--   **Always**
+-   **Always:** Emphasise consistent repetition across all instances.
 
-    -   Other strong habitual markers: Emphasise consistent repetition across all instances.
     -   Markers: *always*, *every time*, *each time*
     -   Example: “We always eat popcorn during movies.”
+
+-   **Multiple**: A response that contains details from other episodes of abuse besides the particular episode that the interviewer is asking about.
 
 ## Story {#sec-story}
 
@@ -344,9 +331,9 @@ Narrative details (see @nte-detail) provided in response to **open questions** (
 
 Off-track responses are responses that do not provide the information requested by the interviewer's prompt or do not address the issue raised by the interviewer. These are usually unproductive responses that do not confirm, deny, or provide new forensically relevant information (except for *multiple* & *cue*).
 
--   **Silence**: The child does not provide a verbal or gestural response to the question.
+-   **Silence**: The child's response is comprised of only filler words (e.g., umm, ahh) or the child does not provide a verbal or gestural response to the question.
 
--   **Filler**: The child's response is comprised of only filler words (e.g., umm, ahh).
+    -   *Silent turns and filler-only turns are not coded as off-track responses if the interviewer treats them as incomplete by immediately repeating or clarifying the question (see point 7 in @sec-rules)*
 
 -   **Refusal**: The child explicitly declines to answer the interviewer’s question, such as by stating, 'I don’t want to talk about that' or 'I won’t answer that.'"
 
@@ -360,15 +347,13 @@ Off-track responses are responses that do not provide the information requested 
 
 -   **Repeat**: A response that repeats information already discussed in the interview without elaborating or adding new details.
 
--   **Multiple**: A response that contains details from other episodes of abuse besides the particular episode that the interviewer is asking about.
-
--   **Cue**: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse. This only applies when the interviewer and child have explicitly established that there was repeated abuse.
+-   **Cue**: A response that contains linguistic cues that the child is recalling generic script information when the interviewer is asking about a particular episode of abuse. [This only applies when the interviewer and child have explicitly established that there was repeated abuse.]{.underline}
 
     -   Include the cue type (e.g., `ot>cue>tense`; see @sec-cue)
 
 ### React {#sec-react}
 
-[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.**]{.underline} The code (adapted from [Earhart et al. 2019](https://onlinelibrary.wiley.com/doi/10.1002/bsl.2141)) should be applied to the interviewer's subsequent prompt and account for all the interviewer's reactions following the off-track response until the prompt.
+[**SPECIAL (not child response) Interviewer reactions to off-track responses will be coded.**]{.underline} The code (adapted from [Earhart et al. 2019](https://onlinelibrary.wiley.com/doi/10.1002/bsl.2141)) should be applied to the interviewer's subsequent prompt.
 
 **Accept**: The interviewer accepts the child’s off-track response by either:
 
@@ -391,6 +376,12 @@ Off-track responses are responses that do not provide the information requested 
     -   The interviewer's subsequent prompt signals to the child that they have not answered the question and that their response was not legitimate.
 
 2.  Comments that signal dissatisfaction with the child’s off-track response
+
+::: {.callout-tip title="Usage Tip"}
+**If the interviewer responds to an off-track response with a clarification-seeking prompt (e.g., “You don’t know?”, “Not really?”), do not treat this as the reaction prompt.**\
+
+Wait to code the next information-seeking prompt, which represents the interviewer’s actual strategic response to the off-track content.
+:::
 
 Additionally, code the interviewer's subsequent prompt in relation to the original eliciting question as:
 
@@ -458,7 +449,7 @@ Response/prompt is inaudible/indistinct (as noted in the transcription) and cann
 
 6.  If it takes the interviewer multiple turns to finish asking their question, code the final turn. This can happen when the interviewer is contextualising their prompt by summarising or clarifying previously discussed information.
 
-7.  If the interviewer repeats a prompt when the child does not respond, or in order to clarify, only code the final prompt.
+7.  If the interviewer repeats a prompt when the child does not respond (i.e., filler word or silence), or in order to clarify, only code the final prompt.
 
 > | *Q. All right. So I just want to work out before we go into the other bits, when you say, “my thingy”, what do you mean by “my thingy”?*
 > | *A.  Um - -*

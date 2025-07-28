@@ -17,7 +17,7 @@ editor: visual
 
 > The codebook should be applied in accordance with Coding Rules (see @sec-rules).
 
-# Intervewiewer
+# Interviewer
 
 ## What Happened? {#sec-oq}
 
@@ -51,7 +51,7 @@ DQ
 
 ME
 
-:   Minimal encourager (see @nte-me) and facilitators (non-suggestive words, such as 'ok' or 'yes')
+:   Facilitators (“mmm-hmmm”, “yeah”, “ok”, “oh”) and Paraphrases (C: “I was six” I: “you were six.”) (see @nte-me).
 
 AE
 
@@ -85,7 +85,7 @@ Open-ended questions encourage an elaborate response but do not tell an intervie
 
 C
 
-:   Context: prompts requesting background/descriptive information that is not specific to an episode of abuse or about the generic abuse script (see @nte-context)
+:   Context: prompts requesting background/descriptive information that is not specific to an episode of abuse or about the generic abuse script or initial disclosure event (see @nte-context)
 
     -   **Suspect**: facts about the suspect (name, age, occupation, height, skin colour)
 
@@ -101,7 +101,7 @@ C
 
 RFI
 
-:   'Request for information': prompts requesting specific episodic remembered details about the event, but not about the abusive act
+:   'Request for information': prompts requesting specific episodic remembered details about the event, but not about the abusive act (i.e., before and after the abusive act)
 
     -   **Suspect**: physical description (not relevant for familiar suspects)
 
@@ -123,9 +123,10 @@ RFI
 
 ACT
 
-:   Details that are central to, and delineate the structure of, the abusive act (e.g., nature, invasiveness).
+:   Details that are specific to what happened during the abusive act
 
-    -   **Body**: movement and positioning of victim/suspect body parts; clothing placement and removal (establishing whether skin-to-skin contact occurred)
+    -   **Body**: movement and positioning of victim/suspect body parts, touch under/over
+    -   **Clothes**: clothing placement and removal (establishing whether skin-to-skin contact occurred)
     -   **People**: presence & description of other people
     -   **Action**: seeking details explaining the overall actions that happened during the abusive act (e.g., "What did he do?")
     -   **Words**: gist of conversations during abuse, tone of suspect’s words
@@ -141,7 +142,7 @@ ACT
 
 CS
 
-:   Clarification-seeking prompts (see @nte-clarification)
+:   Clarification-seeking: Prompts seeking to verify/clarify information (see @nte-clarification)
 
 KQ
 
@@ -196,13 +197,13 @@ Interviewer prompts about similarities/differences among events, including:
 Code questions that match category **4, 5, or 6** from the `Griffiths/Waterhouse Question Map`. If more than one category applies, use the higher numbered category.
 
 | Type | Explanation | Example |
-|----------------|----------------------------------------|----------------|
+|-----------------|--------------------------------------|-----------------|
 | 1\. Invitation | Free recall questions which encouraged the child to freely recall any aspect of the event(s) and minimal encouragers that included very little information but prompted the child to continue. | ‘Tell me everything that happened’ ‘Uhuh’ Echoing the child's words |
 | 2\. Directive | Free recall questions on a cued topic, including wh- questions (e.g. what, where, when, who, why). | 'Where did that happen?' |
 | 3\. Option-posing | All questions that required a ‘Yes’ or ‘No’ answer (including "can you" questions) and forced choice questions which include answers for the child to choose between. | 'Did you hit your head or your knee?’ |
-| 4\. Multiple | Single utterances in which the interviewer asked more than one question, and utterances in which the interviewer summarised what the child had said previously, either with or without including a direct question (children often respond to these summaries as if they have been asked to confirm the summary; see @nte-clarification). | ‘Did you see the man? What did he look like? Where was he?' |
-| 5\. Suggestive | Questions that introduce information the child has not mentioned previously or that imply a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources. (see @tip-suggestive) | Your mum told me your brother hurt you, what do you remember about that?’ |
-| 6\. Unknown | Questions that were not clearly transcribed, parts of the question were missing, or questions which were unfinished, either due to the child interrupting or the interviewer changing their question. | ‘When (`unclear`{=html}) the man?’ |
+| **4. Multiple** | Single utterances in which the interviewer asked more than one question, and utterances in which the interviewer summarised what the child had said previously, either with or without including a direct question (children often respond to these summaries as if they have been asked to confirm the summary; see @nte-clarification). | ‘Did you see the man? What did he look like? Where was he?' |
+| **5. Suggestive** | Questions that introduce information the child has not mentioned previously or that imply a desired response. The question may also include other suggestive techniques, such as mentioning what the interviewer has heard from other sources. (see @tip-suggestive) | Your mum told me your brother hurt you, what do you remember about that?’ |
+| **6. Unknown** | Questions that were not clearly transcribed, parts of the question were missing, or questions which were unfinished, either due to the child interrupting or the interviewer changing their question. | ‘When (`unclear`{=html}) the man?’ |
 
 : Question Type Categories (adapted from Griffiths/Waterhouse Question Map) {#tbl-griffiths .info .hover .sm}
 
@@ -216,7 +217,7 @@ Common suggestive questions include closed-ended questions that clearly suggest 
 •Declarative questions: Direct questions that take the form of complete statements; e.g. ‘But you remember your couch moving?’
 :::
 
-## Event Markers
+## Event Shifts
 
 Event
 
@@ -287,7 +288,7 @@ Orientations: Propositions which placed the event in spatial-temporal context or
 
 6.        Elaborations: Propositions which elaborate on previously mentioned orienting information.
 
-## B1/B2/B3
+## B1/B2/B3 (just B for `e>disclosure` or `non-abusive event`)
 
 Behaviour: propositions that specify actions and spoken words that occurred during the event, including
 
@@ -304,6 +305,14 @@ This code is split into 3 subcategories:
 2.        During the abusive act
 
 3.        After the abusive act
+
+## IS
+
+Internal States: This code included references to emotions, thoughts, desires, and subjective evaluations. Child internal states (e.g., M: “He didn't wanna get back on the bike” and C: “I thought of the bed”) and other internal states (e.g., C: “And my brother got really mad at me”).
+
+## General
+
+Propositions concerning non-episodic information such as semantic details, information pertaining to other nontarget events or extended events that were not specific in time and place (e.g., “It is called the Morder turtle” and “We bought her a fish last year”).
 
 ## BM
 
